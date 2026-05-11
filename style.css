@@ -1,54 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-}
-body{
-    background-color: #f2f2f2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 10px;
-    
-}
-.titulo-pokemon{
-    font-family: 'Arial', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    color: #333;
-}
-.caixa-pokemon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.caixa-pesquisar{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-}
-.input-pesquisar{
-    font-family: 'Arial', sans-serif;
-    width: 400px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-.botao-pesquisar{
-    font-family: 'Arial', sans-serif;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #e60000;
+.card {
+    border-radius: 15px;
     border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    transition: transform 0.3s;
 }
-.botao-pesquisar:hover{
-    background-color: #cc0000;
+
+#pokeImg {
+    width: 150px;
+    height: 150px;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+
+.d-none {
+    display: none !important;
 }
